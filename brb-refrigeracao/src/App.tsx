@@ -1,13 +1,11 @@
-import { Container } from "@mui/material"
+import CarouselImages from "./components/CarouselImages";
 import HeaderHome from "./components/HeaderHome"
 
 function App() {
   return (
     <div>
       <HeaderHome />
-      <Container maxWidth="xl" className="h-screen">
-        <h1 className="">Infos ficarão aqui</h1>
-      </Container>
+      <CarouselImages />
     </div>
   );
 }
