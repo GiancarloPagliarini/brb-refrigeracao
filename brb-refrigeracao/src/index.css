@@ -5,4 +5,15 @@
   :root {
     --radius: 0.5rem
   }
+
+  * {
+    font-family: 'Poppins'
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecmNE.woff2') format('woff2');
+  }
 }

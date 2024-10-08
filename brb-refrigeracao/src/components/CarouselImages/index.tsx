@@ -7,8 +7,8 @@ import {
 } from '@/components/ui/carousel'
 
 import { MdOutlineLocalOffer } from 'react-icons/md'
-import { SlSocialInstagram } from 'react-icons/sl'
-import { SiPix } from 'react-icons/si'
+import { FaWhatsapp } from "react-icons/fa";
+import { IoBuildOutline } from "react-icons/io5";
 
 const CarouselImages = () => {
   return (
@@ -50,18 +50,18 @@ const CarouselImages = () => {
       <div className="shadow-xl bg-zinc-100 sm:w-1/2 w-72 rounded-lg absolute top-full -translate-y-1/2 p-8">
         <ul className="sm:flex gap-4 items-center justify-around block">
           <li className="rounded flex items-center gap-4 font-bold sm:text-lg text-sm cursor-pointer">
-            <MdOutlineLocalOffer className="sm:text-5xl text-4xl text-verdeTaborda" />
-            Infos 1
+            <MdOutlineLocalOffer className="sm:text-5xl text-4xl text-blue-400" />
+            Orçamentos
           </li>
           <div className="sm:w-0.5 sm:h-12 h-0.5 mt-5 mb-5 bg-slate-300">‎</div>
           <li className="rounded flex items-center gap-4 font-bold sm:text-lg text-sm cursor-pointer">
-            <SiPix className="sm:text-5xl text-4xl text-verdeTaborda" />
-            Infos 2
+            <IoBuildOutline className="sm:text-5xl text-4xl text-blue-400" />
+            O que nos diferencia?
           </li>
           <div className="sm:w-0.5 sm:h-12 h-0.5 mt-5 mb-5 bg-slate-300">‎</div>
           <li className="rounded flex items-center gap-4 font-bold sm:text-lg text-sm cursor-pointer">
-            <SlSocialInstagram className="sm:text-5xl text-4xl text-verdeTaborda" />
-            Infos 3
+            <FaWhatsapp className="sm:text-5xl text-4xl text-blue-400" />
+            Entre em contato!
           </li>
         </ul>
       </div>
