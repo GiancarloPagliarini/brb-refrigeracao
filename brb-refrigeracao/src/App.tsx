@@ -1,5 +1,6 @@
 import CarouselImages from "./components/CarouselImages";
 import ComoTrabalhamos from "./components/Containers/ComoTrabalhamos";
+import Orcamentos from "./components/Containers/Orcamentos";
 import HeaderHome from "./components/HeaderHome"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       </div>
       <div>
         <ComoTrabalhamos />
+        <Orcamentos />
       </div>
     </div>
   );

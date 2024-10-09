@@ -1,7 +1,7 @@
 const ComoTrabalhamos = () => {
 
     return (
-        <div className="container mx-auto px-4 pt-52 mb-32">
+        <div className="container mx-auto px-4 mb-7 pt-52 ">
             <div className="sm:flex items-center justify-between">
                 <div className="flex flex-col font-bold text-4xl gap-2">
                     <div className="w-1/4 h-0.5 bg-zinc-400"></div>
@@ -17,10 +17,11 @@ const ComoTrabalhamos = () => {
                     <img
                         className="rounded-lg"
                         src="../images/group1.png"
-                        alt=""
                     />
                 </div>
             </div>
+            <img className="rounded-lg mt-12 w-full"
+                src="../images/BannerHorizontal1.png" />
         </div>
     )
 }
